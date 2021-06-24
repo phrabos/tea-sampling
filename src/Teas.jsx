@@ -11,16 +11,16 @@ const Teas = () => {
 
   return (
     <>
-    <Typography style={{textAlign: 'center'}} variant='h2'>Unlabeled Teas in the Box...</Typography>
-    <Container style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', width: '100vw', height: '100vh'}}>
-      <Container style={{display: 'flex'}}>
+    <Typography style={{textAlign: 'center', marginBottom: '20px'}} variant='h2'>Unlabeled Teas in the Box...</Typography>
+    <Container style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', maxWidth: '800px', height: '100vh'}}>
+      {/* <Container style={{display: 'flex'}}> */}
       <Tea1 />
       <Tea2 />
       <Tea3 />
       <Tea4 />
       <Tea5 />
       <Tea6 />
-      </Container>
+      {/* </Container> */}
 
     </Container>
     </>
